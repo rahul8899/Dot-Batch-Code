@@ -1,0 +1,32 @@
+/* position */
+#bucket {
+  height: 1000px;
+  background-color: yellow;
+}
+
+.inline-block {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+#div3 {
+  position: relative;
+  left: 50px;
+  top: 25px;
+}
+#div2 {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+/* #div4 {
+  position: fixed;
+  margin-top: 0px;
+} */
+#div4 {
+  position: sticky;
+  top: 0;
+}

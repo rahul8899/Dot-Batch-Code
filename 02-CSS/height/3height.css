@@ -1,0 +1,43 @@
+#box{
+    width: 300px;
+    max-height: 200px;
+    border: 1px solid black;
+    overflow:visible; /*By default */
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+
+
+}
+#container{
+    height: 400px;
+    width: 400px;
+    position:relative;
+    background-image: linear-gradient(red,blue);
+}
+#para1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#para2{
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+#para3{
+    position: absolute;
+    bottom: 0;
+    left: 1;
+}
+#para4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#para5{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+

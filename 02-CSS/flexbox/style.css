@@ -1,0 +1,46 @@
+.container {
+  border: 1px solid black;
+  height: 400px;
+  /* width: 400px; */
+  display: flex; /* when we use flex property then please dont use width property.it will disable to flex*/
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap; /* property to write Direction and warp at same time*/
+
+  /* justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  justify-content: space-between; */
+  justify-content: center;
+  /* justify content according main(X) axies*/
+
+  /* align-content: flex-end;
+  align-content: space-around;
+  align-content: space-evenly;
+  align-content: space-between; */
+  align-items: center;
+  /* align item according cros(Y) axies */
+
+  /* gap: 10px; */
+
+  /* align-content: flex-start;
+  align-content: flex-end;
+  align-content: center;
+  align-content: space-around;
+  align-content: space-between; */
+  align-content: space-around;
+  /* flex item me jitni ROW ban rahi hai inke bich me space/alignment handle karta haii */
+}
+
+.box {
+  border: 1px solid green;
+  width: 50px;
+}
+#d2 {
+  order: 3;
+  flex-grow: 1;
+}
+#d4 {
+  order: 1;
+}
