@@ -1,0 +1,32 @@
+.container {
+    height: 500px;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30px repeat(2, 1fr) 30px;
+    gap: 15px;
+
+}
+
+.box {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#div1,
+#div4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#div2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#div3 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
