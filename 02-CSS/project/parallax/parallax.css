@@ -93,13 +93,13 @@ section h3 {
 }
 
 .bg1 {
-    background-image: url('../Image/sport-1.jpg');
+    background-image: url('../../Image/sport-1.jpg');
 }
 
 .bg2 {
-    background-image: url('../Image/sport-2.jpg');
+    background-image: url('../../Image/sport-2.jpg');
 }
 
 .bg3 {
-    background-image: url('../Image/sport-3.jpg');
+    background-image: url('../../Image/sport-3.jpg');
 }
