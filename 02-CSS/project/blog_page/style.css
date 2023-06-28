@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Poppins&family=Raleway&family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #191627;
+}
+
+header {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #e6e5e5;
+}
+
+header p {
+    color: #e6e5e5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+header p a {
+    cursor: pointer;
+    color: #e6e5e5;
+}
+
+.container {
+    border: 1px solid black;
+    display: flex;
+    width: 75%;
+    margin: 50px auto;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    width: 48%;
+}
+
+.blog {
+    border: 2px solid #999;
+    padding: 15px 30px;
+    background: #2c1c7c;
+    color: #ffeeaa;
+}
+
+.blog a,
+.blog p {
+    color: #f3e093;
+    margin: 8px 0;
+}
+
+.blog a {
+    /* transition: transform 0.5s ease; */
+}
+
+.blog a:hover {
+    /* transform: scale(1.1px); */
+    /* transition: smooth;
+    transition-delay: .3s;
+    font-size: 1.5rem; */
+}
