@@ -1,3 +1,4 @@
 # ignore all .md files
 
 *.md
+README.md
