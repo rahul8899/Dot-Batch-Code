@@ -293,7 +293,7 @@ body {
     background-color: rgb(231, 231, 231);
 }
 
-.project-header {
+.section-header {
     padding-top: 30px;
     color: var(--bgOrange);
     text-align: center;
@@ -457,5 +457,82 @@ body {
 
 #project2 {
     background-image: url(./image/projects/Project2.png);
-    justify-content: flex-end;
+    left: 10%;
+}
+
+/* skill section */
+.skills-logo {
+    width: 90px;
+    transition: all 0.7s;
+}
+
+.skill {
+    padding-top: 4rem;
+}
+
+.skill-container {
+    position: relative;
+    max-width: 1200px;
+    display: flex;
+    position: relative;
+    padding: 5rem;
+    margin: 3rem auto;
+    gap: 50px;
+}
+
+.skill-container-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.skill-heading {
+    color: var(--bgOrange);
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.caps {
+    font-size: 80px;
+}
+
+.skill-subheading {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: justify;
+}
+
+.skill-subheading p {
+    /* margin-top: 1rem; */
+    margin: 15px 0;
+}
+
+.skill-container-right {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 50%;
+    position: relative;
+    justify-content: center;
+}
+
+.blob-style {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -9;
+    animation: blobAnimate 3s linear infinite;
+}
+
+@keyframes blobAnimate {
+    50% {
+        top: 54%;
+        left: 46%;
+    }
+}
+
+.skills-logo:hover {
+    scale: 1.3;
 }
