@@ -5,12 +5,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Razorpay</title>
+    <title>Razorpay Clone | Rahul</title>
+    <!-- Link Feather Icon  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+    <header class="bg-deepBlue ">
+        <div class="w-11/12 mx-auto max-w-[1080px] relative flex justify-between items-center text-white font-mullish">
 
+            <!-- logo -->
+            <div class="pr-7 py-7">
+                <a href="/">
+                    <img src="./Images/logo.svg" width="125px" height="30px" loading="lazy">
+                </a>
+            </div>
+
+            <!-- link  -->
+            <ul class="flex space-x-6 pr-7">
+                <li
+                    class=" py-7 hover:text-lightBlue transition-all duration-200 group flex items-center relative cursor-pointer">
+                    <a href="#">Payments</a>
+                    <div
+                        class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-100">
+                    </div>
+                </li>
+                <li
+                    class=" py-7 hover:text-lightBlue transition-all duration-200 group flex items-center relative cursor-pointer">
+                    <a href="#">Banking</a>
+                    <div
+                        class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-100">
+                    </div>
+                </li>
+                <li
+                    class=" py-7 hover:text-lightBlue transition-all duration-200 group flex items-center relative cursor-pointer">
+                    <a href="#">Corporate Card</a>
+                </li>
+                <li
+                    class=" py-7 hover:text-lightBlue transition-all duration-200 group flex items-center relative cursor-pointer">
+                    <a href="#">Payroll</a>
+                </li>
+                <li
+                    class=" py-7 hover:text-lightBlue transition-all duration-200 group flex items-center relative cursor-pointer">
+                    <a href="#">Resources</a>
+                    <div
+                        class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-100">
+                    </div>
+                </li>
+                <li
+                    class=" py-7 hover:text-lightBlue transition-all duration-200 group flex items-center relative cursor-pointer">
+                    <a href="#">Support</a>
+                    <div
+                        class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-100">
+                    </div>
+                </li>
+                <li
+                    class=" py-7 hover:text-lightBlue transition-all duration-200 group flex items-center relative cursor-pointer">
+                    <a href="#">Pricing</a>
+                    <div
+                        class="absolute bottom-0 w-full h-1 bg-lightBlue hidden group-hover:block transition-all duration-100">
+                    </div>
+                </li>
+
+            </ul>
+
+            <!-- buttons -->
+            <div class="flex space-x-3 items-center">
+                <img class="items-center" src="./Images/india-flag.svg" alt="india-flag">
+
+                <!-- login button  -->
+                <button class="text-white border border-lightBlue font-bold py-3 px-5 text-sm rounded-sm">Log
+                    in</button>
+
+                <!-- signup button  -->
+                <button
+                    class="flex justify-center items-center text-lightBlue300 bg-white text-sm py-3 px-4 rounded-sm font-bold border transition-all duration-200 hover:text-lightBlue500">
+                    Sign Up
+                    <svg viewBox="0 0 24 24" focusable="false" class="w-[14px] h-[14px] ml-3">
+                        <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
