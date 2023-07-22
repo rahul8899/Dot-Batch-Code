@@ -6,12 +6,12 @@
 //     console.log("not")
 // }
 
-// for (var i = 0     ; i < 10; i++) {
+for (var i = 0     ; i < 10; i++) {
 
-// console.log("hello"+i)
+console.log("hello"+i)
 
-// document.write(i + " is : " + i*3 + "<br />");
-// }
+document.write(i + " is : " + i*3 + "<br />");
+}
 // var a = new Date().getDay()
 // switch (a) {      // input is current day
 // case 1:                         // if (day == 6)
